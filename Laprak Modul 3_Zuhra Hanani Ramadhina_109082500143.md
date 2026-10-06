@@ -131,13 +131,12 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/oreoceese/laprak3-struktur-data/blob/3-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/oreoceese/laprak3-struktur-data/blob/641ec34fafe2390c9247bb9357c7a6bf30eae16a/3-soal1.png)
 
 ##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/oreoceese/laprak3-struktur-data/blob/3-soal1_2.png)
+![Screenshot Output Unguided 1_2](https://github.com/oreoceese/laprak3-struktur-data/blob/641ec34fafe2390c9247bb9357c7a6bf30eae16a/3-soal1_2.png)
 
 Program menyimpan data hingga 10 mahasiswa menggunakan array of struct, di mana setiap elemen array berisi nama, NIM, dan nilai UTS, UAS, serta tugas. Fungsi hitungNilaiAkhir() menghitung nilai akhir tiap mahasiswa menggunakan rumus bobot (30% UTS, 40% UAS, 30% tugas), lalu hasilnya disimpan ke dalam struct dan ditampilkan dalam bentuk rekap di akhir program.
-
 
 ### 2. Program Implementasi ADT Pelajaran Menggunakan Struct dan Multi-File (pelajaran.h, pelajaran.cpp, main.cpp)
 
@@ -196,7 +195,7 @@ int main() {
 ### Output Unguided 3 :
 
 #### Output
-![Screenshot Output Unguided 2_1](https://github.com/oreoceese/laprak3-struktur-data/blob/3-soal2.png)
+![Screenshot Output Unguided 2_1](https://github.com/oreoceese/laprak3-struktur-data/blob/641ec34fafe2390c9247bb9357c7a6bf30eae16a/3-soal2.png)
 
 Program ini memisahkan struct pelajaran dan deklarasi fungsinya ke dalam file header (pelajaran.h), sementara implementasi fungsi create_pelajaran() dan tampil_pelajaran() ditulis di file terpisah (pelajaran.cpp). File main.cpp hanya memanggil fungsi-fungsi tersebut tanpa perlu tahu detail implementasinya, menunjukkan penerapan konsep ADT di mana struktur data dan operasinya digunakan secara terpisah dari detail teknis di baliknya.
 
@@ -271,7 +270,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 
-![Screenshot Output Unguided 3_1](https://github.com/oreoceese/laprak3-struktur-data/blob/3-soal3.png)
+![Screenshot Output Unguided 3_1](https://github.com/oreoceese/laprak3-struktur-data/blob/641ec34fafe2390c9247bb9357c7a6bf30eae16a/3-soal3.png)
 
 Program ini mendemonstrasikan dua konsep sekaligus: pertama, dua buah array 2D berukuran 3x3 yang nilainya dapat ditukar pada posisi (baris, kolom) tertentu menggunakan fungsi tukarArray2D(); kedua, dua buah variabel integer yang ditukar nilainya melalui pointer menggunakan fungsi tukarPointer(), yang memodifikasi nilai asli secara langsung lewat proses dereference (*p1, *p2).
 
